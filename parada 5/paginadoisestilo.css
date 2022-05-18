@@ -1,0 +1,89 @@
+body{
+    background-color: rgb(100, 82, 80);
+}
+h1{
+    color: rgb(60, 51, 50);
+    text-align: center;
+}
+a{
+    color: rgb(195, 188, 185);
+}
+
+header{
+    margin-left: 29%;
+    width: 41%;   
+}
+#menu{
+    background-color:  rgb(60, 51, 50);
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    overflow: hidden;
+    margin-left: 29%;
+    width: 41%;
+}
+#menu li{ /* posicionaento do li no menu */
+    float: left;
+}
+#menu li a{
+    display: block;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+#menu li a:hover{
+    transition: 0.5s;
+    color:rgb(195, 188, 185);
+    background-color: rgb(113, 103, 97);
+}
+
+article{
+    background-color: antiquewhite;
+    text-align: justify;
+    width: 39.5%;
+    padding: 10px;
+    margin-left: 29%;
+}
+
+img{
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1{
+    margin: 0px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p{
+    color: black;
+    text-align: center;
+}
+ol li span{
+    float: right;
+}
+ol li{
+    border-bottom: 1px solid black;
+}
+footer{
+    background-color: rgb(113, 103, 97);
+}
+#btt_link{
+    text-align: center;
+}
+
+#btt_link a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(113, 103, 97);
+    border-radius: 5px;
+    padding: 7px;
+}
+#btt_link a:hover{
+    transition: 0.5s;
+    background-color: rgb(195, 188, 185);
+}

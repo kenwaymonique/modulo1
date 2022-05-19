@@ -1,0 +1,32 @@
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+table{
+    width: 600px;
+    height: 400px;
+}
+td{
+    text-align: center;
+}
+#tab1{
+    text-align: center;
+    background-color: #08a933;
+    color: white;
+}
+td:hover {background-color: #88d69d}
+#tab2{
+    background-color: #08a933;
+    color: white;
+}
+#tab3{
+    background-color: #08a933;
+    color: white;
+}
+#tab4{
+    background-color: #08a933;
+    color: white;
+}
